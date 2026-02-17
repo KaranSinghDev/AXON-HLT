@@ -8,3 +8,5 @@ tqdm>=4.65
 matplotlib>=3.7
 pytest>=7.4
 requests>=2.31
+onnxruntime>=1.16
+onnxscript>=0.1
