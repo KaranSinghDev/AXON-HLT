@@ -1,0 +1,31 @@
+name: "particle_classifier_v2"
+backend: "onnxruntime"
+max_batch_size: 256
+
+input [
+  {
+    name: "input"
+    data_type: TYPE_FP32
+    dims: [ 28 ]
+  }
+]
+
+output [
+  {
+    name: "output"
+    data_type: TYPE_FP32
+    dims: [ 1 ]
+  }
+]
+
+dynamic_batching {
+  max_queue_delay_microseconds: 100
+  preferred_batch_size: [ 64, 128, 256 ]
+}
+
+instance_group [
+  {
+    kind: KIND_GPU
+    count: 1
+  }
+]
