@@ -1,0 +1,140 @@
+[
+  {
+    "model_name": "particle_classifier_v1",
+    "concurrency": 1,
+    "duration_secs": 30.0,
+    "total_inferences": 24489,
+    "throughput_inf_per_sec": 816.2,
+    "latency_p50_ms": 1.07,
+    "latency_p95_ms": 1.939,
+    "latency_p99_ms": 2.517,
+    "latency_mean_ms": 1.189,
+    "server_metrics": {
+      "gpu_utilization_pct": 0.33,
+      "gpu_memory_used_mb": 539.0,
+      "inference_counts": {
+        "particle_classifier_v1": 27767.0,
+        "particle_classifier_v2": 0.0
+      },
+      "inference_queue_us": {
+        "particle_classifier_v1": 6163152.0,
+        "particle_classifier_v2": 0.0
+      }
+    }
+  },
+  {
+    "model_name": "particle_classifier_v1",
+    "concurrency": 4,
+    "duration_secs": 30.0,
+    "total_inferences": 73878,
+    "throughput_inf_per_sec": 2462.4,
+    "latency_p50_ms": 1.451,
+    "latency_p95_ms": 2.643,
+    "latency_p99_ms": 3.623,
+    "latency_mean_ms": 1.597,
+    "server_metrics": {
+      "gpu_utilization_pct": 0.33,
+      "gpu_memory_used_mb": 539.0,
+      "inference_counts": {
+        "particle_classifier_v1": 113979.0,
+        "particle_classifier_v2": 0.0
+      },
+      "inference_queue_us": {
+        "particle_classifier_v1": 33136671.0,
+        "particle_classifier_v2": 0.0
+      }
+    }
+  },
+  {
+    "model_name": "particle_classifier_v1",
+    "concurrency": 16,
+    "duration_secs": 30.0,
+    "total_inferences": 202378,
+    "throughput_inf_per_sec": 6745.1,
+    "latency_p50_ms": 2.181,
+    "latency_p95_ms": 3.683,
+    "latency_p99_ms": 4.7,
+    "latency_mean_ms": 2.349,
+    "server_metrics": {
+      "gpu_utilization_pct": 0.34,
+      "gpu_memory_used_mb": 539.0,
+      "inference_counts": {
+        "particle_classifier_v1": 349547.0,
+        "particle_classifier_v2": 0.0
+      },
+      "inference_queue_us": {
+        "particle_classifier_v1": 156545598.0,
+        "particle_classifier_v2": 0.0
+      }
+    }
+  },
+  {
+    "model_name": "particle_classifier_v1",
+    "concurrency": 64,
+    "duration_secs": 30.01,
+    "total_inferences": 351116,
+    "throughput_inf_per_sec": 11701.3,
+    "latency_p50_ms": 5.253,
+    "latency_p95_ms": 7.569,
+    "latency_p99_ms": 8.872,
+    "latency_mean_ms": 5.453,
+    "server_metrics": {
+      "gpu_utilization_pct": 0.31,
+      "gpu_memory_used_mb": 539.0,
+      "inference_counts": {
+        "particle_classifier_v1": 759444.0,
+        "particle_classifier_v2": 0.0
+      },
+      "inference_queue_us": {
+        "particle_classifier_v1": 439875331.0,
+        "particle_classifier_v2": 0.0
+      }
+    }
+  },
+  {
+    "model_name": "particle_classifier_v1",
+    "concurrency": 128,
+    "duration_secs": 30.03,
+    "total_inferences": 343627,
+    "throughput_inf_per_sec": 11443.7,
+    "latency_p50_ms": 10.822,
+    "latency_p95_ms": 14.859,
+    "latency_p99_ms": 18.706,
+    "latency_mean_ms": 11.165,
+    "server_metrics": {
+      "gpu_utilization_pct": 0.38,
+      "gpu_memory_used_mb": 539.0,
+      "inference_counts": {
+        "particle_classifier_v1": 1160494.0,
+        "particle_classifier_v2": 0.0
+      },
+      "inference_queue_us": {
+        "particle_classifier_v1": 838921702.0,
+        "particle_classifier_v2": 0.0
+      }
+    }
+  },
+  {
+    "model_name": "particle_classifier_v1",
+    "concurrency": 256,
+    "duration_secs": 30.01,
+    "total_inferences": 333028,
+    "throughput_inf_per_sec": 11097.1,
+    "latency_p50_ms": 22.482,
+    "latency_p95_ms": 30.961,
+    "latency_p99_ms": 36.544,
+    "latency_mean_ms": 23.059,
+    "server_metrics": {
+      "gpu_utilization_pct": 0.3,
+      "gpu_memory_used_mb": 539.0,
+      "inference_counts": {
+        "particle_classifier_v1": 1548500.0,
+        "particle_classifier_v2": 0.0
+      },
+      "inference_queue_us": {
+        "particle_classifier_v1": 1242559341.0,
+        "particle_classifier_v2": 0.0
+      }
+    }
+  }
+]

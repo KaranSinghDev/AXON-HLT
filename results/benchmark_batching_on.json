@@ -1,0 +1,25 @@
+[
+  {
+    "model_name": "particle_classifier_v1",
+    "concurrency": 64,
+    "duration_secs": 30.01,
+    "total_inferences": 346361,
+    "throughput_inf_per_sec": 11543.0,
+    "latency_p50_ms": 5.3,
+    "latency_p95_ms": 7.8,
+    "latency_p99_ms": 9.823,
+    "latency_mean_ms": 5.528,
+    "server_metrics": {
+      "gpu_utilization_pct": 0.14,
+      "gpu_memory_used_mb": 560.0,
+      "inference_counts": {
+        "particle_classifier_v1": 389845.0,
+        "particle_classifier_v2": 0.0
+      },
+      "inference_queue_us": {
+        "particle_classifier_v1": 268412493.0,
+        "particle_classifier_v2": 0.0
+      }
+    }
+  }
+]
