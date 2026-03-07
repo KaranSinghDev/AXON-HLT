@@ -66,6 +66,7 @@ def result_to_dict(result, server_metrics: dict) -> dict:
         "latency_p95_ms": round(result.p95_ms, 3),
         "latency_p99_ms": round(result.p99_ms, 3),
         "latency_mean_ms": round(result.mean_ms, 3),
+        "latencies_ms": [round(x, 3) for x in result.latencies_ms],
         "server_metrics": server_metrics,
     }
 
