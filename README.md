@@ -74,11 +74,27 @@ Inference (online)
 
 ## Setup
 
+**Option 1 — Docker (no Python setup required):**
+
+```bash
+# Pull the benchmark client image
+docker pull karandev7/axon-hlt:latest
+
+# Run against any live Triton server
+docker run --network host karandev7/axon-hlt \
+  --url <triton-host>:8001 \
+  --model particle_classifier_v1 \
+  --concurrency 64 \
+  --duration 30
+```
+
+**Option 2 — From source:**
+
 **Prerequisites:** Docker with NVIDIA Container Toolkit, Python 3.10+.
 
 ```bash
-git clone <repo>
-cd axon
+git clone https://github.com/KaranSinghDev/AXON-HLT.git
+cd AXON-HLT
 make install       # create venv, install tritonclient + deps
 make train         # download HIGGS subset, train, export ONNX (~2 min)
 make serve         # docker compose up: Triton with dynamic batching
