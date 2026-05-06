@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+type: software
+title: "AXON-HLT: Coprocessor Inference-as-a-Service Proof-of-Concept for CERN High-Level Trigger"
+version: "0.1.0"
+date-released: "2026-03-09"
+authors:
+  - family-names: "Singh"
+    given-names: "Karan"
+    affiliation: "SRM University"
+license: Apache-2.0
+repository-code: "https://github.com/KaranSinghDev/AXON-HLT"
+abstract: >
+  Python-based proof-of-concept of CERN's SONIC (Services for Optimized Network
+  Inference on Coprocessors) architecture for High-Level Trigger inference offloading.
+  Implements an asyncio gRPC benchmark client simulating concurrent HLT CPU nodes
+  sending particle classification requests to NVIDIA Triton Inference Server with
+  dynamic batching. Benchmarks demonstrate 3.7x throughput improvement with dynamic
+  batching enabled, characterised against the CERN HLT 7 ms latency budget.
+keywords:
+  - SONIC
+  - CERN
+  - High-Level Trigger
+  - Inference-as-a-Service
+  - coprocessor offloading
+  - Triton Inference Server
+  - ONNX
+  - gRPC
+  - dynamic batching
+  - particle physics
+  - machine learning
+  - HEP
