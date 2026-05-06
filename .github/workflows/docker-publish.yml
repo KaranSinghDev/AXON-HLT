@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: karandev7/axon-hlt
+          images: docker.io/karandev7/axon-hlt
           tags: |
             type=raw,value=latest
             type=sha,prefix=sha-,format=short
