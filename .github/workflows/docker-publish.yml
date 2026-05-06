@@ -25,7 +25,7 @@ jobs:
         with:
           images: karandev7/axon-hlt
           tags: |
-            type=raw,value=latest,enable={{is_default_branch}}
+            type=raw,value=latest
             type=sha,prefix=sha-,format=short
             type=semver,pattern={{version}}
 
