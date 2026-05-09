@@ -254,13 +254,22 @@ make test   # runs pytest (20 tests: data, model, ONNX export, schema)
 
 ## References
 
-- [CMS-MLG-23-001] CMS Collaboration, *Portable Acceleration of CMS Production Workflow with Coprocessors as a Service*, Feb 2024. https://arxiv.org/abs/2402.15366
-- [SONIC] Rankin et al., *Accelerating Machine Learning Inference with GPUs in High Energy Physics*, Computing and Software for Big Science, 2021.
+- CMS Collaboration. *Portable acceleration of CMS computing workflows with coprocessors as a service*. Computing and Software for Big Science **8**, 17 (2024).
+https://doi.org/10.1007/s41781-024-00124-1 — CMS-MLG-23-001, arXiv:2402.15366
+- Krupa, J. et al. *GPU coprocessors as a service for deep learning inference in high energy physics*. Machine Learning: Science and Technology **2**, 035005 (2021).
+https://doi.org/10.1088/2632-2153/abec21
+- Duarte, J. et al. *FPGA-accelerated machine learning inference as a service for particle physics computing*. Computing and Software for Big Science **3**, 13 (2019).
+https://doi.org/10.1007/s41781-019-0027-2
+- Baldi, P., Sadowski, P. & Whiteson, D. *Searching for exotic particles in high-energy physics with deep learning*. Nature Communications **5**, 4308 (2014). https://doi.org/10.1038/ncomms5308
+ — UCI HIGGS Dataset, https://archive.ics.uci.edu/ml/datasets/HIGGS
 - [NVIDIA Triton Inference Server](https://github.com/triton-inference-server/server)
-- [UCI HIGGS Dataset](https://archive.ics.uci.edu/ml/datasets/HIGGS) — Baldi et al., 2014.
 
 ---
 
 ## License
 
 Apache 2.0 — see [LICENSE](LICENSE).
+
+## Disclaimer
+
+This is an independent proof-of-concept project. It is not affiliated with, endorsed by, or sponsored by CERN, the CMS Collaboration, or NVIDIA Corporation. References to SONIC, the CMS High-Level Trigger, NVIDIA Triton, and related trademarks are made for descriptive purposes only and remain the property of their respective owners.
