@@ -1,4 +1,8 @@
-# Axon
+# AXON-HLT- Coprocessor Inference Benchmarking
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20058280.svg)](https://doi.org/10.5281/zenodo.20058280)
+[![Docker Image](https://img.shields.io/badge/Docker-Pull_AXON--HLT-blue?logo=docker)](https://hub.docker.com/r/karandev7/axon-hlt)
+[![Triton Support](https://img.shields.io/badge/Server-NVIDIA_Triton-76b900?logo=nvidia)](https://github.com/triton-inference-server/server)
 
 A Python-based proof-of-concept of CERN's **SONIC** (Services for Optimized
 Network Inference on Coprocessors) architecture — demonstrating coprocessor
